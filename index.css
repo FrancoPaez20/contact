@@ -16,7 +16,8 @@
 	--borderRadius:5px;
 	--borderRadius2:15px;
 	--transicionCorta:.3s;
-	--transicionLarga:.5s}
+	--transicionLarga:.5s
+}
 
 *{
 	padding:0;
@@ -33,6 +34,16 @@
 *:focus{
 
 	outline: none;
+}
+
+a:focus{
+
+	outline: -webkit-focus-ring-color auto 1px;
+}
+
+.btn:focus{
+
+	outline: 2px #4d90fe solid;
 }
 
 .main{
@@ -104,7 +115,7 @@
 
 .container .redes .icon:nth-last-child(1){
 
-	margin: 0;
+	margin-right: 0;
 }
 
 .container .form{
